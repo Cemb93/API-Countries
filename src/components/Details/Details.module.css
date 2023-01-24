@@ -1,0 +1,86 @@
+.div_principal {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: url('../../images/DETAILS\ -\ COUNTRY.jpg');
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  background-size: cover;
+  min-height: 100vh;
+  margin: -0.25%;
+}
+
+.div_detail {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border: solid 0.2rem gray;
+  background: rgba(131, 141, 167, 0.75);
+  border-radius: 1rem;
+  padding: 2.5rem;
+  margin: 5rem;
+}
+
+.div_date_country {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 1.5rem;
+}
+
+.div_each_activity {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.div_all_activities {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.5rem;
+  font-size: 1.05rem;
+  margin: 0.3rem;
+}
+
+.div_activity {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: solid 4px green;
+  background: rgba(46, 169, 118, 0.75);
+  border-radius: 1rem;
+  margin: 1rem;
+  padding: 0 1.1rem;
+}
+
+.btn_delete {
+  border: solid 0.1em red;
+  border-radius: 0.25em;
+  font-size: 0.8em;
+  background: rgba(178, 55, 55, 0.73);
+  margin: 1em;
+  padding: 0.1em 0.25em 0.1em 0.25em;
+  cursor: pointer;
+}
+
+.btn {
+  border: solid 0.1em rgb(0, 204, 255);
+  border-radius: 0.5rem;
+  background: rgba(60, 182, 209, 0.75);
+  padding: 0.1em 0.25em 0.1em 0.25em;
+  font-size: 1.5em;
+  cursor: pointer;
+}
+
+.h1_errors {
+  border: solid 0.3rem red;
+  font-size: 6.5rem;
+  background-color: black;
+  color: red;
+  margin-top: 30rem;
+  padding: 0.5rem 1.5rem;
+  border-radius: 1rem;
+}

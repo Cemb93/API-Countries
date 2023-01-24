@@ -1,0 +1,33 @@
+
+/* ? Centrando el "div */
+.container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-image: url('https://media.giphy.com/media/a8yAv6o6GJtcI/giphy.gif');
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.h2 {
+  font-size: 80px;
+}
+
+.button {
+  border: solid 3px green;
+  border-radius: 8px;
+  background:  rgba(29, 133, 86, 0.75);/** OPACIDAD */
+  font-size: 50px;
+  cursor: pointer;
+}
+
+.button:hover {
+  color: gray;
+  background: blue;
+  box-shadow: 0 0 10px blue, 0 0 40px blue, 0 0 80px blue;
+  transition-delay: 0.1s;
+}
